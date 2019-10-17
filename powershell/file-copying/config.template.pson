@@ -1,0 +1,26 @@
+@{
+    sourceDirname = 'C:\Users\Public\Documents'
+    destinationDirname = "copy-and-zip-dest"
+    filesAndDirectories = @(
+        "Many",
+        "Folders",
+        "listed",
+        "here",
+        "and",
+        "many.txt",
+        "incredible.png",
+        "files.too"
+    )
+    messages = @{
+        sourceDirname = "Insert the source folder or hit ENTER to accept the configured path on the config.pson"
+        chooseSourceDirname = "source folder"
+        copying = "copying"
+        generateZipQuestion = "Do you want to ZIP the copy result?"
+        generateZipPopupTitle = "Zip content"
+        zipCreatedAt = "Zip file created at: {0}"
+        zipNotCreated = "The zip file has NOT being created."
+        processCompleted = "Process completed."
+        filesCopiedTo = "Files copied to: {0}"
+        pressAnyKey = "Press any key to continue..."
+    }
+}
